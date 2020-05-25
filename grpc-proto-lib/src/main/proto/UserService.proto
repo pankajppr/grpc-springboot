@@ -1,0 +1,15 @@
+syntax = "proto3";
+package com.jucase.grpc;
+
+message UserRequest{
+    bytes user = 1;
+}
+
+message UserResponse{
+  bytes user = 1;
+}
+
+service UserService {
+  // Define a RPC operation
+  rpc user(UserRequest) returns (UserResponse);
+}

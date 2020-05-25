@@ -1,0 +1,5 @@
+#Local PROFILE
+spring:
+  profiles: local
+server:
+  port: 8081

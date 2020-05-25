@@ -1,0 +1,8 @@
+#Local PROFILE
+spring:
+  profiles: local
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/grpctestdb
+server:
+  port: 8082
